@@ -1,7 +1,7 @@
-public class practice {
-  public static void main(String[] args) {
-		
- StringBuffer sb = new StringBuffer("aman");
+package String;
+
+public class onecharactortoupper {
+     StringBuffer sb = new StringBuffer("aman");
 
  for(int i=0;i<sb.length();i++){
   char ch = sb.charAt(i);
@@ -13,7 +13,4 @@ public class practice {
     System.out.print(ch);
   }
  }
-  
-		
- }}
-
+}}
