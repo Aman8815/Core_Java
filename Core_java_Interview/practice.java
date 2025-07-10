@@ -1,19 +1,24 @@
 public class practice {
   public static void main(String[] args) {
 		
-  StringBuffer sb = new StringBuffer("Aman");
-
-   sb.append("Yashona");
-   System.out.println(sb);
-
-   System.out.println(sb.length());
-   System.out.println(sb.capacity());
-   System.out.println(sb.charAt(6));
-   System.out.println(sb.indexOf("s"));
-   System.out.println(sb.replace(0, 4, "nman"));
-   System.out.println(sb.reverse());
-    
+   String name = "aman";
+    int count = 0;
+   for(char a = 'a'; a<='z';a++){
+    for(int i=0;i<name.length();i++){
+      char ch = name.charAt(i);
+      if(a==ch){
+        count ++;
+      }
+    }
+    if(count>0){
+      System.out.println(a+"=>"+count);
+      count = 0;
+      
+    }
+   }
    
+
+  
 		
  }
 }
