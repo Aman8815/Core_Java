@@ -1,4 +1,4 @@
-package com.rays.REcursion;
+package com.rays.Recursion;
 
 public class Fabonacci {
 	
